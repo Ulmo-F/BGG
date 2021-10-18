@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>
+      BGG
+    </title>
+    <style>
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: block;
+
+/*
+		  font-weight: bold;
+		  font-family: monospace;
+		  font-size: 1.2rem;
+		  text-transform: uppercase;
+		  text-align: center;
+*/
+  padding: 1rem;
+
+/*
+			  color: #A77B0E;
+			  background: #FAE042;
+*/
+background-color: #777;
+color: white;
+font-size: 15px;
+  cursor: pointer;
+
+/*
+			border-radius: 7px;
+			transition: all 0.25s ease-out;
+*/
+}
+
+.lbl-toggle:hover {
+  background-color: #555;
+/*
+			color: #7C5A0B;
+*/
+}
+/*
+
+			.lbl-toggle::before {
+			  content: ' ';
+			  display: inline-block;
+
+			  border-top: 5px solid transparent;
+			  border-bottom: 5px solid transparent;
+			  border-left: 5px solid currentColor;
+			  vertical-align: middle;
+			  margin-right: .7rem;
+			  transform: translateY(-2px);
+
+			  transition: transform .2s ease-out;
+			}
+
+			.toggle:checked + .lbl-toggle::before {
+			  transform: rotate(90deg) translateX(-3px);
+			}
+*/
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+/*
+			transition: max-height .25s ease-in-out;
+*/
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: none;
+}
+
+/*
+			.toggle:checked + .lbl-toggle {
+			  border-bottom-right-radius: 0;
+			  border-bottom-left-radius: 0;
+			}
+*/
+
+.collapsible-content .content-inner {
+background-color: #f1f1f1;
+/*
+			  background: rgba(250, 224, 66, .2);
+			  background: rgba(250, 224, 66, .2);
+			  border-bottom: 1px solid rgba(250, 224, 66, .45);
+			  border-bottom-left-radius: 7px;
+			  border-bottom-right-radius: 7px;
+*/
+  padding: .5rem 1rem;
+}
+
+
+    </style>
+  </head>
+<body>
+
+<script type="text/javascript" src="BGG.js"></script>
+<script>
+
+
+
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;")
+    .replace(/é/g, "&eacute;")
+    .replace(/è/g, "&egrave;")
+    .replace(/ê/g, "&ecirc;")
+    .replace(/à/g, "&agrave;")
+    .replace(/ù/g, "&ugrave;")
+    .replace(/û/g, "&ucirc;")
+    .replace(/ô/g, "&ocirc;")
+    .replace(/â/g, "&acirc;")
+    .replace(/î/g, "&icirc;")
+    
+    .replace(/É/g, "&Eacute;")
+    .replace(/È/g, "&Egrave;")
+    .replace(/Ê/g, "&Ecirc;")
+    .replace(/À/g, "&Agrave;")
+    .replace(/Ù/g, "&Ugrave;")
+    .replace(/Û/g, "&Ucirc;")
+    .replace(/Ô/g, "&Ocirc;")
+    .replace(/Â/g, "&Acirc;")
+    .replace(/Î/g, "&Icirc;");
+}
+
+function createSection(section) {
+var sectionNode = document.createElement('div');
+sectionNode.className = "wrap-collabsible";
+var button = document.createElement('input');
+button.id = "collapsible" + '.' + section[0];
+button.className = "toggle";
+button.type = "checkbox";
+sectionNode.appendChild(button);
+var buttonLabel = document.createElement('label');
+buttonLabel.className = "lbl-toggle";
+buttonLabel.htmlFor = "collapsible" + '.' + section[0];
+buttonLabel.innerHTML = escapeHtml(section[0]);
+sectionNode.appendChild(buttonLabel);
+var sectionContent = document.createElement('div');
+sectionContent.className = "collapsible-content";
+sectionNode.appendChild(sectionContent);
+
+var innerContent = document.createElement('div');
+innerContent.className = "content-inner";
+sectionContent.appendChild(innerContent);
+
+innerContent.appendChild(tableCreate(section[1]));
+
+return sectionNode;
+}
+
+
+
+
+
+function tableRowCreate(bggEntry, isExp) {
+  var tr = document.createElement('tr');
+  var a = document.createElement('a');
+  a.innerHTML = escapeHtml(bggEntry[1]);
+  a.setAttribute('href', 'http://boardgamegeek.com/boardgame/' + bggEntry[0]);
+  if (isExp) {
+      tr.appendChild(document.createElement('td'));
+      tr.appendChild(a);
+  } else {
+      tr.appendChild(a);
+      tr.appendChild(document.createElement('td'));
+  }
+  var aImg = document.createElement('a');
+  aImg.setAttribute('href', 'http://boardgamegeek.com/images/boardgame/' + bggEntry[0]);
+  aImg.innerHTML = 'images';
+  tr.appendChild(document.createElement('td')).appendChild(aImg)
+  var aFiles = document.createElement('a');
+  aFiles.setAttribute('href', 'http://boardgamegeek.com/files/thing/' + bggEntry[0]);
+  aFiles.innerHTML = 'files';
+  tr.appendChild(document.createElement('td')).appendChild(aFiles)
+  var aForum = document.createElement('a');
+  aForum.setAttribute('href', 'http://boardgamegeek.com/forums/thing/' + bggEntry[0]);
+  aForum.innerHTML = 'forums';
+  tr.appendChild(document.createElement('td')).appendChild(aForum)
+  return tr;
+}
+
+function tableCreate(bgglist) {
+  var tab = document.createElement('table');
+  var tbdy = document.createElement('tbody');
+  for (var i = 0; i < bgglist.length; i++) {
+    if (Array.isArray(bgglist[i][0])) {
+      tbdy.appendChild(tableRowCreate(bgglist[i][0], true));
+    } else {
+      tbdy.appendChild(tableRowCreate(bgglist[i], false));
+    }
+//    if (Array.isArray(bgglist[i][0])) {
+//      tbdy.appendChild(tableRowCreate(bgglist[i][0], false));
+//      for (var j = 1; j < bgglist[i].length; j++) {
+//        tbdy.appendChild(tableRowCreate(bgglist[i][j], true));
+//      }
+//    } else {
+//      tbdy.appendChild(tableRowCreate(bgglist[i], false));
+//    }
+  }
+  tab.appendChild(tbdy);
+  return tab;
+}
+
+for (var i = 0; i < desc.length; i++) {
+  document.body.appendChild(createSection(desc[i]));
+}
+
+</script>
+
+</body>
+</html>
