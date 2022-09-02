@@ -297,6 +297,8 @@
     [[ 174648, "Below ground"                                                ]],
     [  143404, "Castellion"                                                  ] ,
     [  206084, "Nautilion"                                                   ] ,
+    [  267127, "Aerion"                                                      ] ,
+    [  360843, "Stellarion"                                                  ] ,
     [  209778, "Magic Maze"                                                  ] ,
     [[ 260658, "Hidden Roles"                                                ]],
     [[ 230359, "Maximum Security"                                            ]],
