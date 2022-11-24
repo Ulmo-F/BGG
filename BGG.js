@@ -1,4 +1,4 @@
-﻿desc = 
+desc = 
 [
 [ "FFG", [
     [   12493, "Twilight Imperium III"                                       ] ,
@@ -85,6 +85,9 @@
     [  177079, "Chada & Thorn"                                               ] ,
     [  195421, "Near and Far"                                                ] ,
     [[ 236667, "Amber Mines"                                                 ]],
+    [  255984, "Sleeping Gods"                                               ] ,
+    [[ 287670, "Dungeons"                                                    ]],
+    [[ 283766, "Tides of Ruin"                                               ]],
   ]
 ],
 [ "Top games", [
@@ -121,6 +124,7 @@
     [[ 237663, "Encounter Card 42"                                           ]],
     [  251247, "Barrage"                                                     ] ,
     [[ 263711, "The Leeghwater Project"                                      ]],
+    [[ 366469, "The Nile Affair"                                             ]],
     [  220308, "Projet Gaia"                                                 ] ,
   ]
 ],
@@ -169,11 +173,6 @@
     [  118014, "Pokemon of D"                                                ] ,
     [   63011, "Patrol Lost"                                                 ] ,
     [  188834, "Secret Hitler"                                               ] ,
-    [  170416, "Vast: The Crystal Caverns"                                   ] ,
-    [[ 234757, "Fearsome Foes"                                               ]],
-    [[ 223998, "Bonus cards"                                                 ]],
-    [[ 206057, "Silver Gauntlet promo card"                                  ]],
-    [[ 206056, "Treasure Trove promo card"                                   ]],
     [   54835, "Route Z"                                                     ] ,
     [  109143, "Trick or Treat"                                              ] ,
     [  237182, "Root"                                                        ] ,
@@ -183,6 +182,11 @@
     [[ 272638, "Exiles and Partisans deck"                                   ]],
     [[ 287220, "The Clockwork Expansion"                                     ]],
     [[ 330149, "The Marauder Expansion"                                      ]],
+    [  170416, "Vast: The Crystal Caverns"                                   ] ,
+    [[ 234757, "Fearsome Foes"                                               ]],
+    [[ 223998, "Bonus cards"                                                 ]],
+    [[ 206057, "Silver Gauntlet promo card"                                  ]],
+    [[ 206056, "Treasure Trove promo card"                                   ]],
     [  252399, "Vast: The Mysterious Manor"                                  ] ,
     [[ 284666, "Haunted Hallways"                                            ]],
     [  190761, "History of Civilizations"                                    ] ,
@@ -266,6 +270,7 @@
     [[ 182515, "Hunters"                                                     ]],
     [  316554, "Dune Imperium"                                               ] ,
     [[ 342031, "Rise of Ix"                                                  ]],
+    [[ 367466, "Immortality"                                                 ]],
   ]
 ],
 [ "Dominion", [
@@ -327,6 +332,11 @@
     [[ 233076, "Monster Pack 1 King Kong"                                    ]],
     [[ 207292, "Monster Pack 2 Cthulhu"                                      ]],
     [[ 250532, "Monster Pack 3 Anubis"                                       ]],
+    [  169654, "Deep Sea Adventure"                                          ] ,
+    [[ 349150, "Expansion Die"                                               ]],
+    [  200077, "Mint Works"                                                  ] ,
+    [  230251, "Mint Delivery"                                               ] ,
+    [  282765, "Mint Cooperative"                                            ] ,
   ]
 ],
 [ "Krosmaster", [
@@ -393,6 +403,12 @@
     [[ 182732, "Mercury"                                                     ]],
     [[ 190924, "Outer Planets"                                               ]],
     [[ 227951, "Stations"                                                    ]],
+    [   47055, "High Frontier"                                               ] ,
+    [[  94454, "High Frontier-Poster map"                                    ]],
+    [[ 124147, "High Frontier-Colonization"                                  ]],
+    [[ 149689, "High Frontier-Interstellar"                                  ]],
+    [  172737, "High Frontier 3rd edition"                                   ] ,
+    [  174333, "High Frontier Lite"                                          ] ,
     [  281655, "High Frontier 4 all"                                         ] ,
     [[ 304511, "Terawatt"                                                    ]],
     [[ 304512, "Colonization"                                                ]],
@@ -436,12 +452,6 @@
     [[ 270849, "Academics"                                                   ]],
     [  136063, "Le Désert Interdit"                                          ] ,
     [[ 153748, "Le Désert Interdit Storm Tracker"                            ]],
-    [   47055, "High Frontier"                                               ] ,
-    [[  94454, "High Frontier-Poster map"                                    ]],
-    [[ 124147, "High Frontier-Colonization"                                  ]],
-    [[ 149689, "High Frontier-Interstellar"                                  ]],
-    [  172737, "High Frontier 3rd edition"                                   ] ,
-    [  174333, "High Frontier Lite"                                          ] ,
     [  139952, "Clockwork Wars"                                              ] ,
     [[ 163243, "Sentience"                                                   ]],
     [[ 181433, "Volcano bonus tiles"                                         ]],
@@ -507,5 +517,8 @@
     [  318450, "Bios:Mesofauna"                                              ] ,
     [   29256, "Origins: How we became human"                                ] ,
     [[ 235555, "Bios:Origins - Second Edition"                               ]],
+    [  171662, "Neanderthal"                                                 ] ,
+    [  338760, "Imperial Steam"                                              ] ,
+    [  228411, "Iron Curtain"                                                ] ,
   ]
 ]];
