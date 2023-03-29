@@ -96,6 +96,7 @@ desc =
     [[ 162409, "Furor Sanguinis"                                             ]],
     [   79828, "A Few Acres of Snow"                                         ] ,
     [   12333, "Twilight Struggle"                                           ] ,
+    [  228411, "Iron Curtain"                                                ] ,
     [  132018, "Churchill"                                                   ] ,
     [   45986, "Stronghold"                                                  ] ,
     [[  72851, "Undead"                                                      ]],
@@ -125,6 +126,10 @@ desc =
     [  251247, "Barrage"                                                     ] ,
     [[ 263711, "The Leeghwater Project"                                      ]],
     [[ 366469, "The Nile Affair"                                             ]],
+    [[ 318010, "Executive Officiers Pack A"                                  ]],
+    [[ 304458, "Executive Officiers Pack B"                                  ]],
+    [[ 346071, "Executive Officiers Pack C"                                  ]],
+    [[ 363533, "Executive Officiers Pack D"                                  ]],
     [  220308, "Projet Gaia"                                                 ] ,
   ]
 ],
@@ -312,6 +317,11 @@ desc =
     [[ 230359, "Maximum Security"                                            ]],
     [[ 238664, "9 tiles"                                                     ]],
     [[ 234154, "Adventskalender promo"                                       ]],
+    [  171233, "The Big Book of Madness"                                     ] ,
+    [[ 279689, "Le Vème élément"                                             ]],
+    [  316412, "The LOOP"                                                    ] ,
+    [[ 365130, "Brigade à poils"                                             ]],
+    [[ 338324, "La Revanche de Foozilla"                                     ]],
   ]
 ],
 [ "Small games", [
@@ -416,6 +426,7 @@ desc =
     [[ 304511, "Terawatt"                                                    ]],
     [[ 304512, "Colonization"                                                ]],
     [[ 305726, "Conflict"                                                    ]],
+    [[ 333517, "Exodus"                                                      ]],
     [     230, "Merchant of Venus"                                           ] ,
     [[ 131646, "Second Edition"                                              ]],
     [  154857, "Emergence Event"                                             ] ,
@@ -522,6 +533,5 @@ desc =
     [[ 235555, "Bios:Origins - Second Edition"                               ]],
     [  171662, "Neanderthal"                                                 ] ,
     [  338760, "Imperial Steam"                                              ] ,
-    [  228411, "Iron Curtain"                                                ] ,
   ]
 ]];
