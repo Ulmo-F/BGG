@@ -333,6 +333,7 @@ desc =
     [[ 230359, "Maximum Security"                                            ]],
     [[ 238664, "9 tiles"                                                     ]],
     [[ 234154, "Adventskalender promo"                                       ]],
+    [  283135, "Magic Maze on Mars"                                          ] ,
     [  171233, "The Big Book of Madness"                                     ] ,
     [[ 279689, "Le Vème élément"                                             ]],
     [  316412, "The LOOP"                                                    ] ,
