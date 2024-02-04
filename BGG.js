@@ -127,11 +127,12 @@ desc =
     [[ 237663, "Encounter Card 42"                                           ]],
     [  251247, "Barrage"                                                     ] ,
     [[ 263711, "The Leeghwater Project"                                      ]],
+    [[ 304453, "5 Player expansion"                                          ]],
     [[ 366469, "The Nile Affair"                                             ]],
-    [[ 318010, "Executive Officiers Pack A"                                  ]],
-    [[ 304458, "Executive Officiers Pack B"                                  ]],
-    [[ 346071, "Executive Officiers Pack C"                                  ]],
-    [[ 363533, "Executive Officiers Pack D"                                  ]],
+    [[ 318010, "Executive Officers - pack A"                                 ]],
+    [[ 304458, "Executive Officers - pack B"                                 ]],
+    [[ 346071, "Executive Officers - pack C"                                 ]],
+    [[ 363533, "Executive Officers - pack D"                                 ]],
     [  220308, "Projet Gaia"                                                 ] ,
   ]
 ],
@@ -203,6 +204,7 @@ desc =
     [[ 284666, "Haunted Hallways"                                            ]],
     [  190761, "History of Civilizations"                                    ] ,
     [  263175, "Torpedo Dice"                                                ] ,
+    [  316624, "stationfall"                                                 ] ,
   ]
 ],
 [ "Dixit", [
@@ -561,6 +563,5 @@ desc =
     [[ 408223, "Australia"                                                   ]],
     [[ 400825, "Half-tiles promo"                                            ]],
     [[ 400823, "Acrylic nucleums promo"                                      ]],
-    [  316624, "stationfall"                                                 ] ,
   ]
 ]];
