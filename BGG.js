@@ -62,6 +62,11 @@ desc =
     [[ 186844, "Print and play demo"                                         ]],
     [[ 186151, "Action deck discard"                                         ]],
     [  286063, "The 7th Citadel"                                             ] ,
+    [[ 320287, "On the Edge of Peril"                                        ]],
+    [[ 321043, "The Unveilers"                                               ]],
+    [[ 321511, "Knowledgeis Power"                                           ]],
+    [[ 321609, "The Alembic of Valengarde"                                   ]],
+    [[ 321678, "The Final Throne"                                            ]],
   ]
 ],
 [ "RPG", [
@@ -108,6 +113,7 @@ desc =
     [[ 144763, "Krang Character Expansion"                                   ]],
     [[ 176130, "shades of Tezla"                                             ]],
     [[ 248562, "Ultimate Edition"                                            ]],
+    [[ 416403, "The Apocalypse Dragon"                                       ]],
     [  169786, "Scythe"                                                      ] ,
     [[ 199727, "Invaders from Afar"                                          ]],
     [[ 223555, "Wind Gambit"                                                 ]],
@@ -129,10 +135,14 @@ desc =
     [[ 263711, "The Leeghwater Project"                                      ]],
     [[ 304453, "5 Player expansion"                                          ]],
     [[ 366469, "The Nile Affair"                                             ]],
+    [[ 397437, "New Lands: The Colorado Connection"                          ]],
+    [[ 397438, "New Lands: Duel"                                             ]],
+    [[ 388973, "The Geological Factor"                                       ]],
     [[ 318010, "Executive Officers - pack A"                                 ]],
     [[ 304458, "Executive Officers - pack B"                                 ]],
     [[ 346071, "Executive Officers - pack C"                                 ]],
     [[ 363533, "Executive Officers - pack D"                                 ]],
+    [[ 397434, "Executive Officers - pack E"                                 ]],
     [  220308, "Projet Gaia"                                                 ] ,
   ]
 ],
@@ -293,6 +303,7 @@ desc =
     [  316554, "Dune Imperium"                                               ] ,
     [[ 342031, "Rise of Ix"                                                  ]],
     [[ 367466, "Immortality"                                                 ]],
+    [[ 397598, "Uprising"                                                    ]],
     [  198994, "Hero Realms"                                                 ] ,
     [[ 202100, "La Ruine de Thandar"                                         ]],
     [[ 265270, "Le Village Perdu"                                            ]],
@@ -424,6 +435,9 @@ desc =
     [  144041, "Patchistory"                                                 ] ,
     [  318184, "Imperium - Classics"                                         ] ,
     [  318182, "Imperium - Legends"                                          ] ,
+    [  281549, "Beast"                                                        ],
+    [[ 385276, "Shattered Isles"                                             ]],
+    [[ 399046, "The Great Hunt"                                              ]],
   ]
 ],
 [ "Space Trucking", [
