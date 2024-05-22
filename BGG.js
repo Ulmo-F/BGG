@@ -570,12 +570,15 @@ desc =
     [[ 235555, "Bios:Origins - Second Edition"                               ]],
     [  171662, "Neanderthal"                                                 ] ,
     [  338760, "Imperial Steam"                                              ] ,
-    [   373106, "Sky Team"                                                   ] ,
+    [  373106, "Sky Team"                                                    ] ,
     [[ 404069, "Paris Charles de Gaulle"                                     ]],
     [[ 405208, "Düsseldorf"                                                  ]],
     [  396790, "Nucleum"                                                     ] ,
     [[ 408223, "Australia"                                                   ]],
     [[ 400825, "Half-tiles promo"                                            ]],
     [[ 400823, "Acrylic nucleums promo"                                      ]],
+    [  340466, "L'Insondable"                                                ] ,
+    [  184267, "On Mars"                                                     ] ,
+    [[ 278241, "Alien Invasion"                                              ]],
   ]
 ]];
