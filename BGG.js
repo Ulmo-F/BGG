@@ -578,7 +578,9 @@ desc =
     [[ 400825, "Half-tiles promo"                                            ]],
     [[ 400823, "Acrylic nucleums promo"                                      ]],
     [  340466, "L'Insondable"                                                ] ,
+    [[ 416590, "Surgi des Abysses"                                           ]],
     [  184267, "On Mars"                                                     ] ,
     [[ 278241, "Alien Invasion"                                              ]],
+    [[ 278431, "Beacon promo card"                                           ]],
   ]
 ]];
