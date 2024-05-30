@@ -144,6 +144,7 @@ desc =
     [[ 363533, "Executive Officers - pack D"                                 ]],
     [[ 397434, "Executive Officers - pack E"                                 ]],
     [  220308, "Projet Gaia"                                                 ] ,
+    [[ 396802, "The Lost Fleet"                                              ]],
   ]
 ],
 [ "War of the Ring", [
@@ -585,5 +586,6 @@ desc =
     [  184267, "On Mars"                                                     ] ,
     [[ 278241, "Alien Invasion"                                              ]],
     [[ 278431, "Beacon promo card"                                           ]],
+    [   25674, "Khronos"                                                     ] ,
   ]
 ]];
