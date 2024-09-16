@@ -143,6 +143,7 @@ desc =
     [[ 397437, "New Lands: The Colorado Connection"                          ]],
     [[ 397438, "New Lands: Duel"                                             ]],
     [[ 388973, "The Geological Factor"                                       ]],
+    [[ 426268, "The Legendary Box"                                           ]],
     [[ 318010, "Executive Officers - pack A"                                 ]],
     [[ 304458, "Executive Officers - pack B"                                 ]],
     [[ 346071, "Executive Officers - pack C"                                 ]],
