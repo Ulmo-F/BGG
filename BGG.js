@@ -582,5 +582,9 @@ desc =
     [[ 278241, "Alien Invasion"                                              ]],
     [[ 278431, "Beacon promo card"                                           ]],
     [   25674, "Khronos"                                                     ] ,
+    [   422374, "Lone Wolves"                                                ] ,
+    [   28720, "Brass - Lancashire"                                          ] ,
+    [[ 201381, "2 player board"                                              ]],
+    [  224517, "Brass - Birmingham"                                          ] ,
   ]
 ]];
