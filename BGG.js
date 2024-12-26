@@ -151,6 +151,8 @@ desc =
     [[ 397434, "Executive Officers - pack E"                                 ]],
     [  220308, "Projet Gaia"                                                 ] ,
     [[ 396802, "The Lost Fleet"                                              ]],
+    [  418059, " SETI: Search for Extraterrestrial Intelligence"             ] ,
+    [[ 430027, "Pluto promo card"                                            ]],
   ]
 ],
 [ "War of the Ring", [
@@ -272,6 +274,8 @@ desc =
     [[ 257694, "Expedition Leader"                                           ]],
     [[ 286274, "Opal Apestone"                                               ]],
     [[ 283292, "Trailblazer"                                                 ]],
+    [  308918, "Clank! La grande aventure"                                   ] ,
+    [[ 422869, "Lairs and Lost Chambers"                                     ]],
     [  365717, "Clank! Catacombs"                                            ] ,
     [    9209, "Les aventuriers du rail"                                     ] ,
     [   43443, "Castle Panic"                                                ] ,
