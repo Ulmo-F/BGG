@@ -187,7 +187,6 @@ desc =
     [  176070, "Magic Realm Light 30"                                        ] ,
     [[ 194882, "Asterisk expansion"                                          ]],
     [  246256, "Magik Realm"                                                 ] ,
-    [  351648, "Dragons Down"                                                ] ,
     [   75223, "Utopia Engine"                                               ] ,
     [   28044, "Pocket Civ"                                                  ] ,
     [   61451, "Run Emily Run"                                               ] ,
@@ -254,6 +253,7 @@ desc =
     [    3201, "La Confrontation"                                            ] ,
     [[  18833, "Deluxe edition"                                              ]],
     [    4610, "Le duel"                                                     ] ,
+    [  421006, "Duel for Middle-Earth"                                       ] ,
   ]
 ],
 [ "Family", [
@@ -275,8 +275,8 @@ desc =
     [[ 286274, "Opal Apestone"                                               ]],
     [[ 283292, "Trailblazer"                                                 ]],
     [  308918, "Clank! La grande aventure"                                   ] ,
-    [[ 422869, "Lairs and Lost Chambers"                                     ]],
     [  365717, "Clank! Catacombs"                                            ] ,
+    [[ 422869, "Lairs and Lost Chambers"                                     ]],
     [    9209, "Les aventuriers du rail"                                     ] ,
     [   43443, "Castle Panic"                                                ] ,
     [[ 104590, "The Wizard's Tower"                                          ]],
@@ -355,7 +355,8 @@ desc =
     [  156336, "Onirim Second Edition"                                       ] ,
     [[ 168017, "Mirrors"                                                     ]],
     [[ 168018, "Sphinx Diver and Confusion"                                  ]],
-    [   94389, "Equilibrion"                                                 ] ,
+    [   94389, "Equilibrion / Urbion"                                        ] ,
+    [  426994, "Equilibrion / Urbion Second Edition"                         ] ,
     [  143405, "sylvion"                                                     ] ,
     [[ 174648, "Below ground"                                                ]],
     [  143404, "Castellion"                                                  ] ,
@@ -590,5 +591,8 @@ desc =
     [   28720, "Brass - Lancashire"                                          ] ,
     [[ 201381, "2 player board"                                              ]],
     [  224517, "Brass - Birmingham"                                          ] ,
+    [  351648, "Dragons Down"                                                ] ,
+    [[ 404519, "Desolation"                                                  ]],
+    [[ 412169, "Natives and Legends"                                         ]],
   ]
 ]];
