@@ -594,5 +594,6 @@ desc =
     [  351648, "Dragons Down"                                                ] ,
     [[ 404519, "Desolation"                                                  ]],
     [[ 412169, "Natives and Legends"                                         ]],
+    [[ 438330, "Eastern Reaches"                                             ]],
   ]
 ]];
