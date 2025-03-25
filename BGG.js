@@ -325,6 +325,7 @@ desc =
     [  281549, "Beast"                                                        ],
     [[ 385276, "Shattered Isles"                                             ]],
     [[ 399046, "The Great Hunt"                                              ]],
+    [[ 423518, "Donjon : les apprentis gardiens"                             ]],
   ]
 ],
 [ "Dominion", [
