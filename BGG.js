@@ -152,7 +152,9 @@ desc =
     [  220308, "Projet Gaia"                                                 ] ,
     [[ 396802, "The Lost Fleet"                                              ]],
     [  418059, " SETI: Search for Extraterrestrial Intelligence"             ] ,
+    [[ 445048, "Space agencies"                                              ]],
     [[ 430027, "Pluto promo card"                                            ]],
+    [[ 437940, "Gateway to Mars promo card"                                  ]],
   ]
 ],
 [ "War of the Ring", [
@@ -325,7 +327,7 @@ desc =
     [  281549, "Beast"                                                        ],
     [[ 385276, "Shattered Isles"                                             ]],
     [[ 399046, "The Great Hunt"                                              ]],
-    [[ 423518, "Donjon : les apprentis gardiens"                             ]],
+    [  423518, "Donjon : les apprentis gardiens"                             ] ,
   ]
 ],
 [ "Dominion", [
@@ -459,6 +461,8 @@ desc =
     [  144041, "Patchistory"                                                 ] ,
     [  318184, "Imperium - Classics"                                         ] ,
     [  318182, "Imperium - Legends"                                          ] ,
+    [  329551, "Mosaic - A story of civilization"                            ] ,
+    [  240465, "Carta Impera Victoria"                                       ] ,
   ]
 ],
 [ "Space Trucking", [
@@ -596,5 +600,19 @@ desc =
     [[ 404519, "Desolation"                                                  ]],
     [[ 412169, "Natives and Legends"                                         ]],
     [[ 438330, "Eastern Reaches"                                             ]],
+    [  386405, "Come sail away"                                              ] ,
+    [  430817, "Wraith and the Giants"                                       ] ,
+    [[ 439308, "New dawn"                                                    ]],
+    [  332772, "Revive"                                                      ] ,
+    [[ 385685, "Call of the Abyss"                                           ]],
+    [[ 433208, "promo card"                                                  ]],
+    [  374595, "Kelp - Shark vs Octopus Down"                                ] ,
+    [[ 405987, "Brillant behaviours"                                         ]],
+    [[ 405986, "New pursuits"                                                ]],
+    [     372, "Schotten Totten"                                             ] ,
+    [  300930, "Schotten Totten 2"                                           ] ,
+    [  383499, "Sorcellerie !"                                               ] ,
+    [[ 426497, "Promo mission"                                               ]],
+    [[ 425653, "promo"                                                       ]],
   ]
 ]];
