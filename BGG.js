@@ -472,6 +472,7 @@ desc =
     [[ 140068, "Anniversary Edition"                                         ]],
     [[ 144227, "The latest models"                                           ]],
     [[ 182027, "Missions"                                                    ]],
+    [  336794, "Galaxy Trucker Second Edition"                               ] ,
     [  173064, "Leaving Earth"                                               ] ,
     [[ 182732, "Mercury"                                                     ]],
     [[ 190924, "Outer Planets"                                               ]],
@@ -614,5 +615,8 @@ desc =
     [  383499, "Sorcellerie !"                                               ] ,
     [[ 426497, "Promo mission"                                               ]],
     [[ 425653, "promo"                                                       ]],
+    [  391137, "Galactic Cruise"                                             ] ,
+    [  432250, "53 Realms adventures"                                        ] ,
+    [  273264, "Iron Helm"                                                   ] ,
   ]
 ]];
