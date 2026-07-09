@@ -476,6 +476,7 @@ desc =
     [  318182, "Imperium - Legends"                                          ] ,
     [  329551, "Mosaic - A story of civilization"                            ] ,
     [  240465, "Carta Impera Victoria"                                       ] ,
+    [  354672, "Time of Empires"                                             ] ,
   ]
 ],
 [ "Space Trucking", [
@@ -486,6 +487,10 @@ desc =
     [[ 144227, "The latest models"                                           ]],
     [[ 182027, "Missions"                                                    ]],
     [  336794, "Galaxy Trucker Second Edition"                               ] ,
+    [[ 347116, "Rough Roads"                                                 ]],
+    [[ 360232, "Keep on Trucking"                                            ]],
+    [[ 445049, "Do what?"                                                    ]],
+    [[ 457431, "Alien-design Mission"                                        ]],
     [  173064, "Leaving Earth"                                               ] ,
     [[ 182732, "Mercury"                                                     ]],
     [[ 190924, "Outer Planets"                                               ]],
